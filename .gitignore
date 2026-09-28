@@ -1,0 +1,58 @@
+@gmail# Ignore build artifacts and binaries
+/build/
+/bin/
+/out/
+cmake-build-debug/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.dylib
+*.exe
+*.lib
+a.out
+lexer_demo
+main
+
+# Ignore editor/IDE files
+.vscode/
+.vscode-server/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+ tools/__pycache__/
+
+# Logs, generated outputs and temporary files
+parsed_liberty.txt
+*.log
+*.tmp
+*.bak
+*.orig
+*.txt
+# Misc
+*Zone.Identifier
+
+# Verilog/EDA temporary
+*.svh
+*.svo
+
+# Node/python environment files (if any)
+.env
+venv/
+
+# Keep the repository clean
+
+tokens_output.txt
